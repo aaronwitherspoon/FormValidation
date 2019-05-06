@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Form Validation</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<div>
+	<form name="myForm" action="http://www.google.com/" target="_blank" onsubmit="return validateForm()" method="post">
+		<input type="text" name="myName" id="nameBox" placeholder="Name">
+		<p id="name"></p><br/>
+		<input type="text" name="myZip" id="zipBox" placeholder="Zipcode">
+		<p id="zip"></p><br/>
+		<input type="text" name="myEmail" id="emailBox" placeholder="Email">
+		<p id="email"></p><br/>
+		<input type="password" name="myPass" id="passBox" placeholder="Password">
+		<p id="pass"></p><br/>
+		<input type="password" name="myPass2" id="passBox2" placeholder="Reenter password">
+		<p id="pass2"></p><br/>
+		<input type="submit">
+	</form>
+</div>
+<script src="script.js"></script>
+</html>

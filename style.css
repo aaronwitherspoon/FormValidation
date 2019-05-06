@@ -1,0 +1,7 @@
+#name, #zip, #email, #pass, #pass2 {
+	font-family: Arial, sans-serif;
+	display: inline;
+}
+input {
+	margin: 10px 0;
+}
